@@ -1,0 +1,214 @@
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+  body{
+    background-color: black;
+   font-family: 'Lucida Sans', sans-serif;
+   background-size: cover;
+   height: 100vh;
+   background-position: center;
+  }
+  .title {
+    padding : 38px 100px;
+    position : absolute;
+    color: white;
+    font-family: 'Marck Script', cursive;
+    background: linear-gradient(170deg, #FF5F1F 50%, white 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+  }
+  #S{
+    color:  #FF5F1F;
+  }
+  nav ul{
+    cursor: pointer;
+    list-style-type: none;
+    float: right;
+  }
+  nav ul li{
+    display: inline-block;
+  }
+  nav ul li a{
+    text-decoration: none;
+    /* padding: 25px 100px; */
+    text-align: left;
+    display: block;
+    font-size: 18px;
+  }
+  nav ul li a:hover{
+    transition: .3s;
+    color: #FF5F1F;
+  }
+  .cont{
+    font-family: 'Lucida Sans', sans-serif;
+    padding:40px 40px;
+    color: white;
+  }
+  .logo{
+    position: absolute;
+    width: 3%;
+    top: 28px;
+    left: 46px;
+  }
+  .HELP1 h1 {
+    color:  #FF5F1F;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    font-size: 50px;
+    font-family: 'Cabin', sans-serif;
+  }
+  h3{
+    color:  #FF5F1F;
+    position: absolute;
+    left: 50px;
+    top: 230px;
+    font-size: 25px;
+ }
+.query{
+    color:white;
+    position: absolute;
+    left : 50px;
+    top : 300px;
+    line-height: 2.8;
+}
+.contact h3{
+    color: #FF5F1F; 
+    position: absolute;
+    left: 50px;
+    top : 550px;
+}
+.contact h4{
+    color:white; 
+    position: absolute;
+    left: 50px;
+    top : 600px;
+}
+.contact p{
+    color: white; 
+    position: absolute;
+    left: 50px;
+    top : 630px;
+}
+.contact button{
+    background-color:rgb(142, 136, 136);
+    color:black;
+    position: absolute;
+    left: 50px;
+    top : 660px;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    font-weight:bold;
+}
+.callus h4{
+    color : white;
+    position: absolute;
+    left : 50px;
+    top: 730px;
+}
+.callus p{
+    position:absolute;
+    left: 50px;
+    top: 760px;
+    color: white;
+}
+.callus p1{
+    position:absolute;
+    left: 273px;
+    top: 760px;
+    color: white;
+    font-weight: bold;
+}
+.testimonials{
+    position: absolute;
+    top: 800px;
+    text-align : center;
+    color : #434343;
+}
+.inner{
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+.row{
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : center;
+}
+.col{
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.testimonial{
+    background-color: #fff;
+    padding: 30px;
+}
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.stars{
+    color : orange;
+    margin-bottom: 20px;
+}
+#cn{
+  cursor: pointer;
+}
+
+.dd{
+  position: absolute;
+  display: none;
+  background: white;
+  width: 15%;
+  height: 10%;
+  position: absolute;
+  top: 85px;
+  left: 1200px;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.dd:after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid white;
+  left: 80%;
+  top: -19px;
+ }
+
+.dd1{
+  position: relative;
+  top: 10px;
+  left: 45px;
+  font-size: 18px;
+}
+.dd3{
+  color: #FF5F1F;
+  position: relative;
+  font-size: 16px;
+  top: 18px;
+  left: 65px;
+}
+.dd2{
+  text-decoration: none;
+  color: black;
+}
