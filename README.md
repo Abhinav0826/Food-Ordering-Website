@@ -12,7 +12,7 @@ Developed a fully responsive food ordering website (Straight to You) with a user
 
 ![Homepage ](https://github.com/Abhinav0826/Food-Ordering-Website/assets/98962378/0fc7c035-bd99-453b-97f2-de47c648504e)
 
-Find how the project looks in screenshots folder Or [click here]()
+Find how the project looks in screenshots folder Or [click here](https://github.com/Abhinav0826/Food-Ordering-Website/tree/main/Screenshots)
 
 ## Technologies Used
 - HTML
